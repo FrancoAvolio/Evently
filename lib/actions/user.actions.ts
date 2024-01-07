@@ -2,7 +2,7 @@
 
 import { revalidatePath } from "next/cache";
 
-import { connectToDatabase } from "@/lib/db";
+import { connectToDatabase } from "../db";
 import User from "@/lib/db/models/user.model";
 import Order from "@/lib/db/models/order.model";
 import Event from "@/lib/db/models/event.model";
